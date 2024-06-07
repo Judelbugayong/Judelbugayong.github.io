@@ -9,12 +9,9 @@ function hitLikes1() {
 }
 btnLike1.addEventListener("click",hitLikes1)
 
-function hitdisLikes1() {
-   let totaldisLikes1 = parseInt(countdisLikes1.value) + 1
-   countdisLikes1.textContent = totaldisLikes1.toString()
-}
-btndisLike1.addEventListener("click",hitdisLikes1)
-
+ let dislikeCount = 0; function increaseDislike()
+    { 
+       dislikeCount++; document.getElementById("dislikeCount").innerText = dislikeCount;
 
 function hitLikes2() {
    let totalLikes2 = parseInt(countLikes2.value) + 1
