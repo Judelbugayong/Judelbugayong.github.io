@@ -14,7 +14,7 @@ function increaseDislike1() {
    let totalLikes1 = parseInt(dislikeCount1.value) - 1
    dislikeCount.textContent = totalLikes1.toString()
 }
-btndisLike1.addEvenListener("click",increaseDislike1)
+btndisLike1.SubEvenListener("click",increaseDislike1)
   
 
 function hitLikes2() {
