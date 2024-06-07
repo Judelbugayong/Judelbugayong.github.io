@@ -1,5 +1,4 @@
 const btnLike1 = document.getElementById("btnLike1")
-const btndisLike1 = document.getElementById("btndisLike1")
 const btnLike2 = document.getElementById("btnLike2")
 const countLikes1 = document.getElementById("countLikes1")
 const countLikes2 = document.getElementById("countLikes2")
@@ -10,12 +9,6 @@ function hitLikes1() {
 }
 btnLike1.addEventListener("click",hitLikes1)
 
-function increaseDislike1() {
-   let totalLikes1 = parseInt(dislikeCount1.value) - 1
-   dislikeCount.textContent = totalLikes1.toString()
-}
-btndisLike1.SubEvenListener("click",increaseDislike1)
-  
 
 function hitLikes2() {
    let totalLikes2 = parseInt(countLikes2.value) + 1
