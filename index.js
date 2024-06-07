@@ -10,7 +10,7 @@ function hitLikes1() {
 btnLike1.addEventListener("click",hitLikes1)
 
 function increaseDislike1() {
-   let dislikeCount1 = 0;
+   let dislike1 = 0;
   
     dislikeCount1++; document.getElementById("dislikeCount1")
     .innerText = dislikeCount1;}
