@@ -22,7 +22,8 @@
              <img src="1.jpg" class="img-thumbnail" style="width:800px; height:300px;" class="img-thumbnail"/> 
               <label for="product1" id="price1" >
 		      <div class="p-3 mb-2 bg-danger text-white">800000.00</div></label>   
-              <input type="number" class="form-control" id="qty1" placeholder="ENTER QUANTITY"/>
+		<div class="p-3 mb-2 bg-warning-subtle text-warning-emphasis">
+              <input type="number" class="form-control" id="qty1" placeholder="ENTER QUANTITY"/></div>
 	       </div>           
             <div class="col-4 text-center">
              <lable id="product2" > 
@@ -66,7 +67,8 @@
               <input type="number" class="form-control" id="qty6" placeholder="ENTER QUANTITY"/>
            </div>
            <div class="col-4">
-            <label for="carts"><span class="badge text-bg-dark">Orders</span> </label<br>
+		   <span class="badge text-bg-primary">
+            <label for="carts">Orders</label></span><br>
              <div class="p-3 mb-2 bg-secondary text-white">
             <textarea class="form-control" rows="29" id="carts" cols="200" readonly style="width:350px;height: 400;font-size: 12px;"> </textarea></div>
             <input type="text" class="form-control border-0" id="total" readonly placeholder="Total"/>
